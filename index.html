@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Blocked</title>
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Main message box */
+    .blocked-box {
+      max-width: 600px;
+      padding: 30px;
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ff3333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+
+    .developer {
+      font-weight: bold;
+      color: #00e5ff;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="blocked-box">
+    <h1>This website is currently blocked by 'Talha'<span class="developer"></span></h1>
+    <p>For assistance, please contact the site’s designer and developer: <span class="developer">Talha</span></p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script>
+    // You can add functionality here (e.g., redirect, time-based message, etc.)
+    // Example: redirect to another site after 10 seconds
+    /*
+    setTimeout(() => {
+      window.location.href = "https://yourcontactsite.com";
+    }, 10000);
+    */
+  </script>
+</body>
+</html>
